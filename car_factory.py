@@ -1,10 +1,10 @@
 from car import Car
-from models.engines.capulet import CapuletEngine;
-from models.engines.sternman import SternmanEngine;
-from models.engines.willoughby import WilloughbyEngine;
+from engines.capulet import CapuletEngine;
+from engines.sternman import SternmanEngine;
+from engines.willoughby import WilloughbyEngine;
 
-from models.batteries.nubbin import NubbinBattery;
-from models.batteries.spindler import SpindlerBattery;
+from batteries.nubbin import NubbinBattery;
+from batteries.spindler import SpindlerBattery;
 
 from datetime import datetime
 

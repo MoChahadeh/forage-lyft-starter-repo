@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from models.serviceable import Serviceable
-from models.engine import Engine
-from models.battery import Battery
+from serviceable import Serviceable
+from engine import Engine
+from battery import Battery
 
 
 class Car(Serviceable):
