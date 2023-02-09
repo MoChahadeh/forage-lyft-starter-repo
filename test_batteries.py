@@ -31,7 +31,7 @@ class TestSpindler(unittest.TestCase):
     def test_battery_should_be_serviced(self):
 
         last_service_date = datetime(2019, 1, 1)
-        current_date = datetime(2021, 1, 2)
+        current_date = datetime(2022, 1, 2)
 
         battery = SpindlerBattery(last_service_date, current_date)
 
@@ -40,7 +40,7 @@ class TestSpindler(unittest.TestCase):
     def test_battery_should_not_be_serviced(self):
 
         last_service_date = datetime(2019, 1, 1)
-        current_date = datetime(2020, 12, 31)
+        current_date = datetime(2021, 12, 31)
 
         battery = SpindlerBattery(last_service_date, current_date)
 
